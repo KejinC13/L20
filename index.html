@@ -1,10 +1,90 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>Test</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    helloworld
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to My Personal Website</h1>
+    </header>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to my personal website for LAB 20 where you can learn more about me and my work.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="cat.jpg" alt="My Photo" class="avatar">
+        <p>Hi, I'm Kejin Chen. I'm a sophomore at George Washington University. I love video games and Go kart.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Snap! Projects</h2>
+        <p>Some interesting projects I did in CS10:</p>
+        <ol>
+            <li>
+                <h3>Project 1: Wordle™-lite</h3>
+                <p>In the game, the first player (Player 1) will enter a secret code, and the second player (Player 2) will try to guess that code. 
+                    Player 2 starts with 100 points, and every wrong guess costs them 10 points, 
+                    but they earn back the number of letters that match perfectly in the same place in both words (in Wordle™ this would be the green letters). 
+                    This back-and-forth will continue until Player 2 successfully guesses the secret code or the score is not positive, and the game ends.</p>
+                <ul>
+                    <li><a href="https://snap.berkeley.edu/project?username=kejinchen58&projectname=Project1">Project 1</a></li>
+                </ul>
+            </li>
+            <li>
+                <h3>Project 2: Spelling Bee</h3>
+                <p>In the game, the computer takes about ten seconds to generate (and solve) a hexagonally-shaped word puzzle composed of seven letters, 
+                    with the center one depicted in yellow and six others on the outside. A reference photo of this puzzle display can be seen below:</p>
+                <ul>
+                    <li><a href="https://snap.berkeley.edu/project?username=kejinchen58&projectname=Project2">Project 2</a></li>
+                </ul>
+                <img src="p2.png" alt="Spelling Bee">
+            </li>
+            <li>
+                <h3>Project 3: 2048</h3>
+                <p>A popular mobile game that involves shifting number tiles on a 4x4 board, and combining them until you reach the number 2048.</p>
+                <ul>
+                    <li>The starting board contains two tiles with values of 2 or 4.</li>
+                    <li>When the player hits an arrow key, all tiles on the board “merge” in that direction.</li>
+                    <li>After each merge, a random tile of value 2 or 4 is added to the screen.</li>
+                    <li>The game ends when there are no merges left. You “win” if a tile reads “2048” or more!</li>
+                    <li><a href="https://snap.berkeley.edu/project?username=kejinchen58&projectname=Project03">Project 3</a></li>
+                </ul>
+            </li>
+        </ol>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <iframe src="CV_KejinChen.pdf" width="600" height="1000"></iframe>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p><strong>Name:</strong> Kejin Chen</p>
+        <p><strong>Email:</strong> kejinchen58@berkeley.edu</p>
+        <p><strong>Message:</strong> Feel free to connect with me on social media!</p>
+        <p>Connect with me on social media:</p>
+        <ul>
+            <li><a href="https://linkedin.com/in/985874293">LinkedIn</a></li>
+            <li><a href="https://github.com/KejinC13">GitHub</a></li>
+            <li><a href="https://twitter.com/">Twitter</a></li>
+        </ul>
+    </section>
 </body>
+</html>
+
